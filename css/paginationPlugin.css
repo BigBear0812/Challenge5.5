@@ -1,0 +1,5 @@
+.paginationList{list-style: none; }
+.alignLeft{float: left;}
+.paginationControls_content{ margin-right: auto; margin-left: auto;}
+.paginationControls .count {padding-top: 3px;}
+.clearfix{ clear: both;}

@@ -4,11 +4,22 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="/js/handlebars.js"></script>
 		<script src="/js/paginationPlugin.js"></script>
 		<script src="/js/pageScripts.js"></script>
-		<!-- <link href="/css/tabsPlugin.css" rel="stylesheet" type="text/css"> -->
+		<link href="/css/paginationPlugin.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-		this should one day have content
+		<div class="MainContent" style="width: 1120px; margin-right: auto; margin-left: auto; border: 1px solid #aaa">
+		</div>
+		<script id="entry-template" type="text/x-handlebars-template">
+			<div class="entry">
+			  <h1>{{FirstName}} {{LastName}}</h1>
+			  <div class="body">
+				Email: {{Email}} <br />
+				Date of Birth: {{DateOfBirth}}
+			  </div>
+			</div>
+		</script>
     </body>
 </html>
